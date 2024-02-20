@@ -4,6 +4,7 @@ This terraform file allows a user to create a ec2 instance using the latest debi
 USAGE:
 clone files to a directory on your computer (git clone https://github.com/manuellalonzo/hw4terra-aws ). cd to the cloned directory
 run from command line:
+
 terraform init
 
 terraform apply
