@@ -13,13 +13,13 @@ then provide 3 inputs when prompted:
 
 # enter the IP of your ISP to restrict access or enter 0.0.0.0/0 for any host to access the VM. Examples below
 var.cidr_blocks
-  Enter a value: 24.6.3.79/32
+  Enter a value: 24.6.3.666/32
 
-# enter your KMS keys. In my case it is testing_ami.pem
+# enter your KMS keys. In my case it is testingfake_ami.pem
 var.key_name
-  Enter a value: testing_ami
+  Enter a value: testingfake_ami
 
 # enter your VPC group
 var.vpc_id
-  Enter a value: vpc-8ff14ce4
+  Enter a value: vpc-fake8ff14ce4
 
